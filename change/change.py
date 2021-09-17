@@ -1,2 +1,9 @@
+"""Change"""
+
 def find_fewest_coins(coins, target):
-    pass
+    """
+    :param coins: list
+    :param target: int
+    :return: list
+    """
+    
