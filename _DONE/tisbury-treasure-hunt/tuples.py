@@ -49,11 +49,10 @@ def clean_up(combined_record_group):
     :return: string of tuples separated by newlines - everything "cleaned". Excess coordinates and information removed.
     """
     clean_data = ''
-    print(combined_record_group)
     for record in combined_record_group:
         clean_data += "("
         for data in record:
-            clean_data += '\'' + record[0] + '\', '
+            clean_data += '\'' + data[0] + '\', '
         clean_data += ')\n'
 
     return clean_data
